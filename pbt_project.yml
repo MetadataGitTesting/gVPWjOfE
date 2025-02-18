@@ -1,0 +1,58 @@
+name: araceli.lang
+description: data-warehouse
+version: 1.2.848
+author: null
+language: scala
+buildSystem: ''
+buildSystemDetails:
+  artefactID: aracelilang
+  parentArtefactID: ''
+  buildSystem: maven
+  author: null
+  createdAt: '2025-02-18 21:43:13'
+pipelines: {}
+datasets: {}
+templates: {}
+jobs: {}
+gemContainer:
+  languageVersion: ''
+  gemLibsVersion: ''
+  gems: {}
+  dependencies: null
+functions:
+  author: null
+  createdAt: '2025-02-18 21:43:13'
+  udfs: {}
+  udafs: {}
+  expressions: {}
+  airflowFunctions: {}
+  businessRules: {}
+subgraphs: {}
+sqlModels: {}
+sqlSnapshots: {}
+sqlTests: {}
+sqlMacros: {}
+sqlSeeds: {}
+sqlSources: {}
+sqlUnreferencedSources: {}
+sqlOrchestratorPipelines: {}
+sqlPipeline: null
+dependencies:
+- modifiedAt: '2025-02-18T21:43:13.651703Z'
+  name: plibMaven
+  version: 8.9.0-SNAPSHOT
+  id: '682944184'
+  createdAt: '2025-02-18T21:43:13.651703Z'
+  type: plibMaven
+projectDependencies:
+  '99':
+    projectUID: 99
+    projectName: emile.bayer
+    repositoryPath: gitUri=http://gitserver:3000/dev_V7kCgsZH_team_127/dev_V7kCgsZH_project_99.git&subPath=
+    version: emile.bayer/0.6.3.911
+    isDefault: false
+    author: null
+    createdAt: '2025-02-18 21:43:11'
+flags:
+  shouldAddDefaultDependenciesIfAbsent: true
+pipelineConfigurations: {}
